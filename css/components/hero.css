@@ -1,0 +1,30 @@
+.hero {
+  margin: 0;
+  width: 100vw;
+  height: 90vh;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container {
+  width: 800px;
+  height: 300px;
+  margin-top: 200px;
+  color: white;
+}
+
+.hero-btn {
+  background-color: #0D21A1;
+  color: #EEC643;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.hero-btn:hover {
+  background-color: #0B1C84;
+  color: #F8EABA;
+  transition: 0.2s;
+}
